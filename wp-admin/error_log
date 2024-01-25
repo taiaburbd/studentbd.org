@@ -1,0 +1,561 @@
+[22-Jan-2023 20:49:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CONTAINS '[restrict]' OR 
+                          post_content CONTAINS '[n...' at line 2 for query SELECT * FROM wpop_posts WHERE 
+                          post_content CONTAINS '[restrict]' OR 
+                          post_content CONTAINS '[not_logged_in]' OR
+                          post_content CONTAINS '[login_form]' OR
+                          post_content CONTAINS '[register_form]' OR
+                          LIMIT 1 made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/restrict-content/restrictcontent.php'), RC_Requirements_Check->__construct, RC_Requirements_Check->load, RC_Requirements_Check->restrict_content_check_posts_for_shortcode
+[22-Jan-2023 21:18:56 UTC] SELECT * from wpop_wpsmtp_logs ORDER BY `timestamp` desc LIMIT 0,10;
+[22-Jan-2023 21:19:07 UTC] SELECT * from wpop_wpsmtp_logs ORDER BY `timestamp` desc LIMIT 0,10;
+[22-Jan-2023 21:22:58 UTC] SELECT * from wpop_wpsmtp_logs ORDER BY `timestamp` desc LIMIT 0,10;
+[22-Jan-2023 21:35:40 UTC] SELECT * from wpop_wpsmtp_logs ORDER BY `timestamp` desc LIMIT 0,10;
+[22-Jan-2023 21:44:22 UTC] ERROR PostmanPortTest: mail.studentbd.org:25 => starttls failed
+[22-Jan-2023 21:44:22 UTC] ERROR PostmanPortTest: mail.studentbd.org:587 => starttls failed
+[22-Jan-2023 21:44:39 UTC] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.studentbd.org
+            [hostnameDomainOnly] => studentbd.org
+            [port] => 25
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => padma.whitelabelwebserver.com
+            [reportedHostnameDomainOnly] => whitelabelwebserver.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/smtp.png
+                )
+
+            [label] => 
+            [id] => mail.studentbd.org_25
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.studentbd.org
+            [hostnameDomainOnly] => studentbd.org
+            [port] => 587
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => padma.whitelabelwebserver.com
+            [reportedHostnameDomainOnly] => whitelabelwebserver.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/smtp.png
+                )
+
+            [label] => 
+            [id] => mail.studentbd.org_587
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => api.mailgun.net
+            [hostnameDomainOnly] => mailgun.net
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.mailgun.net
+            [reportedHostnameDomainOnly] => mailgun.net
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mailgun_api
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/mailgun.png
+                )
+
+            [label] => 
+            [id] => api.mailgun.net_443
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/sendgrid.png
+                )
+
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/mandrill.png
+                )
+
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [5] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp-relay.sendinblue.com
+            [hostnameDomainOnly] => sendinblue.com
+            [port] => 587
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => sendinblue_api
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/sendinblue.png
+                )
+
+            [label] => 
+            [id] => smtp-relay.sendinblue.com_587
+        )
+
+    [6] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.postmarkapp.com
+            [hostnameDomainOnly] => postmarkapp.com
+            [port] => 587
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => postmark_api
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/postmark.png
+                )
+
+            [label] => 
+            [id] => smtp.postmarkapp.com_587
+        )
+
+    [7] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.studentbd.org
+            [hostnameDomainOnly] => studentbd.org
+            [port] => 465
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/smtp.png
+                )
+
+            [label] => 
+            [id] => mail.studentbd.org_465
+        )
+
+    [8] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.sparkpostmail.com
+            [hostnameDomainOnly] => sparkpostmail.com
+            [port] => 587
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => sparkpost_api
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/sparkpost.png
+                )
+
+            [label] => 
+            [id] => smtp.sparkpostmail.com_587
+        )
+
+)
+
+[22-Jan-2023 21:44:39 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - studentbd.org:25
+[22-Jan-2023 21:44:39 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - studentbd.org:587
+[22-Jan-2023 21:44:39 UTC] ERROR PostmanManageConfigurationAjaxHandler: Mailgun API
+[22-Jan-2023 21:44:39 UTC] ERROR PostmanManageConfigurationAjaxHandler: SendGrid API
+[22-Jan-2023 21:44:39 UTC] ERROR PostmanManageConfigurationAjaxHandler: Mandrill API
+[22-Jan-2023 21:44:39 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[22-Jan-2023 21:44:39 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[22-Jan-2023 21:44:39 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[22-Jan-2023 21:44:39 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[22-Jan-2023 21:44:53 UTC] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.studentbd.org
+            [hostnameDomainOnly] => studentbd.org
+            [port] => 25
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => padma.whitelabelwebserver.com
+            [reportedHostnameDomainOnly] => whitelabelwebserver.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/smtp.png
+                )
+
+            [label] => 
+            [id] => mail.studentbd.org_25
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.studentbd.org
+            [hostnameDomainOnly] => studentbd.org
+            [port] => 587
+            [protocol] => SMTP
+            [secure] => 
+            [mitm] => 1
+            [reportedHostname] => padma.whitelabelwebserver.com
+            [reportedHostnameDomainOnly] => whitelabelwebserver.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 1
+            [auth_login] => 1
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => smtp
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/smtp.png
+                )
+
+            [label] => 
+            [id] => mail.studentbd.org_587
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => api.mailgun.net
+            [hostnameDomainOnly] => mailgun.net
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.mailgun.net
+            [reportedHostnameDomainOnly] => mailgun.net
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mailgun_api
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/mailgun.png
+                )
+
+            [label] => 
+            [id] => api.mailgun.net_443
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/sendgrid.png
+                )
+
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/mandrill.png
+                )
+
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [5] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp-relay.sendinblue.com
+            [hostnameDomainOnly] => sendinblue.com
+            [port] => 587
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => sendinblue_api
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/sendinblue.png
+                )
+
+            [label] => 
+            [id] => smtp-relay.sendinblue.com_587
+        )
+
+    [6] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.postmarkapp.com
+            [hostnameDomainOnly] => postmarkapp.com
+            [port] => 587
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => postmark_api
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/postmark.png
+                )
+
+            [label] => 
+            [id] => smtp.postmarkapp.com_587
+        )
+
+    [7] => PostmanWizardSocket Object
+        (
+            [hostname] => mail.studentbd.org
+            [hostnameDomainOnly] => studentbd.org
+            [port] => 465
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/smtp.png
+                )
+
+            [label] => 
+            [id] => mail.studentbd.org_465
+        )
+
+    [8] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.sparkpostmail.com
+            [hostnameDomainOnly] => sparkpostmail.com
+            [port] => 587
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => sparkpost_api
+            [data] => Array
+                (
+                    [logo_url] => http://studentbd.org/wp-content/plugins/post-smtp/assets/images/logos/sparkpost.png
+                )
+
+            [label] => 
+            [id] => smtp.sparkpostmail.com_587
+        )
+
+)
+
+[22-Jan-2023 21:44:53 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - studentbd.org:25
+[22-Jan-2023 21:44:53 UTC] ERROR PostmanManageConfigurationAjaxHandler: SMTP - studentbd.org:587
+[22-Jan-2023 21:44:53 UTC] ERROR PostmanManageConfigurationAjaxHandler: Mailgun API
+[22-Jan-2023 21:44:53 UTC] ERROR PostmanManageConfigurationAjaxHandler: SendGrid API
+[22-Jan-2023 21:44:53 UTC] ERROR PostmanManageConfigurationAjaxHandler: Mandrill API
+[22-Jan-2023 21:44:53 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[22-Jan-2023 21:44:53 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[22-Jan-2023 21:44:53 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[22-Jan-2023 21:44:53 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
