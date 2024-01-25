@@ -1,0 +1,28 @@
+[08-Feb-2023 23:15:38 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/student/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/student/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[01-Mar-2023 06:28:46 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/student/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/student/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[01-Mar-2023 22:15:13 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/student/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/student/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[15-Apr-2023 23:29:09 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/student/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/student/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[29-Apr-2023 04:02:54 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/student/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/student/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[30-May-2023 01:40:06 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/student/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/student/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[02-Jun-2023 20:44:20 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/student/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/student/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
